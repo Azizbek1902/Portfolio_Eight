@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins&family=Roboto&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+.Font {
+  font-family: "Inter", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Roboto Condensed", sans-serif; */
+  /* font-family: "Roboto Mono", monospace; */
+}
+.navbarLi {
+  transition: 0.5s all;
+}
+.navbarUL:hover .navbarLi {
+  left: 0px;
+}
+.menuTransiotin {
+  transition: 5s all ease;
+}
+.transs {
+  transition: 0.7s all;
+}
+.shadoW {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.OpacityBg {
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.cardd:hover .OpacityBg {
+  background-color: rgba(60, 60, 60, 0.7);
+}
+.cardd:hover .cartBgColor p {
+  color: white;
+}
+.cardd:hover .cartBgColor h1 {
+  color: white;
+}
+.shadowShoopColor {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+.trans {
+  transition: 500ms all;
+}
+
+.dot {
+  display: none !important;
+}
+.control-next {
+  display: none !important;
+}
+.control-prev,
+.carousel-status,
+.control-next,
+.dot{
+  display: none !important;
+}
+ .selected{
+  border-width: 2px solid #fbb710 !important;
+  border-color: #FBB710 !important;
+}
+.thumb{
+  width: 150px !important;
+  height: 140px;
+}
+.thumbs-wrapper{
+  margin: 0 !important;
+}
+/* .navbarScroll{
+  overflow-y: scroll;
+  height: 100vh;
+  position: sticky;
+} */
